@@ -1,2 +1,2 @@
-# flashCodeMaster
-Repository for first group project
+# flashCode
+Flash Card application designed to help programmers with terms and definitions.
