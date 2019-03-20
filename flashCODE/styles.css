@@ -28,9 +28,9 @@ div a:hover {
 
 #flash-card-menu {
   padding-top: 2%;
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:center;
 }
 
 .card {
@@ -38,7 +38,11 @@ div a:hover {
 }
 
 .navbar {
-  text-align: center;
+  text-align: center;'
+}
+
+.navbar-brand {
+  text-align: left;
 }
 
 #flashCards {
@@ -53,6 +57,11 @@ div a:hover {
   justify-content: center;
 }
 
+button {
+  height: auto;
+  width: auto;
+}
+
 .next {
   margin-top: 5px;
   margin-left: 63px;
@@ -64,10 +73,7 @@ div a:hover {
   background-color: #e4500a;
 }
 
-.log-in {
-  position: absolute;
-  right: 0px;
-}
+
 .log-out {
   position: absolute;
   right: 0px;
@@ -106,7 +112,7 @@ div a:hover {
 
 .python-flip-card-front {
   background-color: #0078ff;
-  color: black;
+  color: white;
   z-index: 2;
 }
 
@@ -147,7 +153,7 @@ div a:hover {
 
 .js-flip-card-front {
   background-color: #6b757e;
-  color: black;
+  color: white;
   z-index: 2;
 }
 
@@ -188,7 +194,7 @@ div a:hover {
 
 .html-flip-card-front {
   background-color: #00ab34;
-  color: black;
+  color: white;
   z-index: 2;
 }
 
@@ -229,7 +235,7 @@ div a:hover {
 
 .css-flip-card-front {
   background-color: #ee153e;
-  color: black;
+  color: white;
   z-index: 2;
 }
 
@@ -313,7 +319,7 @@ div a:hover {
 
 .iq-flip-card-front {
   background-color: #5aaed6;
-  color: black;
+  color: white;
   z-index: 2;
 }
 
