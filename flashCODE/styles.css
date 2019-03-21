@@ -1,6 +1,13 @@
 h1 {
   text-align: center;
 }
+#hover {
+  margin: 17px;
+}
+
+.menu-background {
+  background-color: #313131;
+}
 
 .container {
   font-family: 'Inconsolata', monospace;
@@ -14,6 +21,17 @@ h1 {
   display: flex;
   justify-content: center;
 
+}
+#cardTerm {
+  font-size: 17px;
+  margin: 15px;
+}
+#cardDef {
+  font-size: 17px;
+  margin: 15px;
+}
+#cardEx {
+  margin: 15px;
 }
 
 div a:hover {
@@ -38,6 +56,7 @@ div a:hover {
 }
 
 .navbar {
+  font-family: 'Inconsolata', monospace;
   text-align: center;'
 }
 
@@ -53,8 +72,12 @@ div a:hover {
 }
 
 #buttons {
+  font-family: 'Inconsolata', monospace;
   display: flex;
   justify-content: center;
+}
+#faveButton {font-family: 'Inconsolata', monospace;
+background-color: #e64e69
 }
 
 button {
@@ -72,11 +95,13 @@ button {
   margin-right: 63px;
   background-color: #e4500a;
 }
+#jsLink {
+  background-color: #c1c3c5;
+}
 
-
-.log-out {
-  position: absolute;
-  right: 0px;
+#navbarmargins {
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 
@@ -84,7 +109,7 @@ button {
 /* python flip cards*/
 .python-flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 450px;
   height: 300px;
   perspective: 1000px;
 }
@@ -125,7 +150,7 @@ button {
 /*javascript flip cards*/
 .js-flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 450px;
   height: 300px;
   perspective: 1000px;
 }
@@ -152,13 +177,13 @@ button {
 }
 
 .js-flip-card-front {
-  background-color: #6b757e;
+  background-color: #6c757c;
   color: white;
   z-index: 2;
 }
 
 .js-flip-card-back {
-  background-color: #6b757e;
+  background-color: #6c757c;
   color: white;
   transform: rotateY(180deg);
   z-index: 1;
@@ -166,7 +191,7 @@ button {
 /*HTML flip card styles */
 .html-flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 450px;
   height: 300px;
   perspective: 1000px;
 }
@@ -207,7 +232,7 @@ button {
 /* CSS flip card styling */
 .css-flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 450px;
   height: 300px;
   perspective: 1000px;
 }
@@ -249,7 +274,7 @@ button {
 /* Command Line Styling  */
 .cl-flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 450px;
   height: 300px;
   perspective: 1000px;
 }
@@ -283,20 +308,20 @@ button {
 
 .cl-flip-card-back {
   background-color: #ffc802;
-  color: white;
+  color: black;
   transform: rotateY(180deg);
   z-index: 1;
 }
 
-/* Interview Questions Styling  */
-.iq-flip-card {
+/* Github Flashcard Styling  */
+.gh-flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 450px;
   height: 300px;
   perspective: 1000px;
 }
 
-.iq-flip-card-inner {
+.gh-flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -306,24 +331,65 @@ button {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.iq-flip-card:hover .iq-flip-card-inner {
+.gh-flip-card:hover .iq-flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.iq-flip-card-front, .iq-flip-card-back {
+.gh-flip-card-front, .iq-flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
 
-.iq-flip-card-front {
+.gh-flip-card-front {
   background-color: #5aaed6;
   color: white;
   z-index: 2;
 }
 
-.iq-flip-card-back {
+.gh-flip-card-back {
+  background-color: #5aaed6;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.fave-flip-card {
+  background-color: transparent;
+  width: 450px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.fave-flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.fave-flip-card:hover .fave-flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.fave-flip-card-front, .fave-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.fave-flip-card-front {
+  background-color: #5aaed6;
+  color: white;
+  z-index: 2;
+}
+
+.fave-flip-card-back {
   background-color: #5aaed6;
   color: white;
   transform: rotateY(180deg);
