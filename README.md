@@ -1,2 +1,2 @@
-# flashCODE
-flashCODE Project
+# flashCodeMaster
+Repository for first group project
