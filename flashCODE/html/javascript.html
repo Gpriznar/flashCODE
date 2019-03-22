@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../styles.css"</link>
     <link rel="stylesheet" href="../api.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -20,8 +21,8 @@
     <input type="hidden" id="language" value="javascript"></input>
 
     <!--nav bar code-->
-
-    <h1 id="header">flashCode</h1>
+    <br>
+    <h1 id="header">flashCODE</h1>
 
     <nav class="navbar navbar-expand-lg navbar-dark menu-background" id="navbarmargins">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +35,7 @@
         <a class="nav-link" href="main-menu.html">Main Menu <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="favorites.html">My Study List</a>
+        <a class="nav-link" href="review.html">Review</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" id="log-out" href="../login.html">Logout</a>
@@ -62,7 +63,7 @@
           <br><br>
           <div id="buttons">
             <button type="button" id="previousButton" class="previous btn btn-primary">Previous</button>
-            <button type="button" id="faveButton" class="fave btn btn-secondary">Fave</button>
+            <button type="button" id="faveButton" class="fave btn btn-secondary">Review</button>
             <button type="button" id="nextButton" class="next btn btn-secondary">Next</button>
           </div>
 
@@ -87,7 +88,7 @@
                };
                firebase.initializeApp(config);
              </script>
-        <script src="../scripts/jsAPI.js"></script>
+        <script src="../scripts/allAPI.js"></script>
         <script src="../databases/pythondatabase.js"></script>
         <script src="../databases/cssdatabase.js"></script>
         <script src="../databases/htmldatabase.js"></script>
