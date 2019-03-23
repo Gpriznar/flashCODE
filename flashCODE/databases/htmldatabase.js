@@ -5,7 +5,7 @@ let htmlFlashCards =
     {"Term": "HTML tag", "Definition": "HTML elements are represented by tags"},
     {"Term": "< html >", "Definition": "Root element of an HTML page, everything is contained within these tags"},
     {"Term": "< head >", "Definition": "The element that contains meta info about the document"},
-    {"Term": "< title >", "Definiton": "Element that specifies a title for the document"},
+    {"Term": "< title >", "Definition": "Element that specifies a title for the document"},
     {"Term": "< body >", "Definition": "Element containing the visible page content"},
     {"Term": "< h1 >", "Definition": "Largest heading element you can create"},
     {"Term": "< h6 >", "Definition": "Smallest heading element you can create"},
@@ -14,7 +14,7 @@ let htmlFlashCards =
     {"Term": "< br >", "Definiton": "Line break - if you want a line break without starting a new paragraph"},
     {"Term": "< a >", "Definition": "HTML link element"},
     {"Term": "href='#'", "Defintion": "href is the link's destination"},
-    {"Term": "< img >", "Definiton": "tag for an HTML image"},
+    {"Term": "< img >", "Definition": "tag for an HTML image"},
     {"Term": "src='#'", "Definition": "the location of the image to display"},
     {"Term": "alt", "Definiton": "attribute specifies alternative text to be used when an image cannot be displayed"},
     {"Term": "< button >", "Definition": "tag to create a button element"},
@@ -22,8 +22,8 @@ let htmlFlashCards =
     {"Term": "< ol >", "Definition": "tag to create an ordered list element"},
     {"Term": "< li >", "Defintion": "tag to create a list element inside either ul or ol elements"},
     {"Term": "id", "Definition": "Specifies a unique id for an element"},
-    {"Term": "< b >", "Definiton": "Bolds text"},
-    {"Term": "< i >", "Definiton": "Italices text"},
+    {"Term": "< b >", "Definition": "Bolds text"},
+    {"Term": "< i >", "Definition": "Italices text"},
     {"Term": "< em >", "Definition": "Emphasized text"},
     {"Term": "< !-- -- >", "Definition": "HTML syntax for commenting"}
     ]
