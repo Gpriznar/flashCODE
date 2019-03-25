@@ -10,6 +10,6 @@
 **Features:** HTML, CSS, Bootstrap, JavaScript, JQuery, FireBase, Google Books API
 
 
-**Link** - gmpflashcode.surge.sh (Works best in Chrome or Firefox)
+**Link**  http://gmpflashcode.surge.sh (Works best in Chrome or Firefox)
 
 **Project Contributors** Tim Goens, Summer Feilers, Ashley Mello
