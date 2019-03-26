@@ -10,7 +10,7 @@
 **Features:** HTML, CSS, Bootstrap, JavaScript, JQuery, FireBase, Google Books API
 
 
-**Link** (Works best in Chrome or Firefox)
+**Link:** (Works best in Chrome or Firefox)
           
           1) http://gmpflashcode.surge.sh (Static login screen with unique title font) 
 
