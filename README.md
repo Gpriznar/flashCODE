@@ -10,8 +10,10 @@
 **Features:** HTML, CSS, Bootstrap, JavaScript, JQuery, FireBase, Google Books API
 
 
-**Link**  * http://gmpflashcode.surge.sh (Works best in Chrome or Firefox)
+**Link** (Works best in Chrome or Firefox)
+          
+          1) http://gmpflashcode.surge.sh (Static login screen with unique title font) 
 
-          * http://flashcode.surge.sh (alter styling with jquery logo animation)
+          2) http://flashcode.surge.sh (Alternate styling with jquery based loginscreen animation)
 
 **Project Contributors** Tim Goens, Summer Feilers, Ashley Mello
