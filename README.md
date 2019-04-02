@@ -12,8 +12,8 @@
 
 **Link:** (Works best in Chrome or Firefox)
           
-          1) http://gmpflashcode.surge.sh (Static login screen with unique title font) 
+1) http://gmpflashcode.surge.sh (Static login screen with unique title font) 
 
-          2) http://flashcode.surge.sh (Alternate styling with jquery based loginscreen animation)
+2) http://flashcode.surge.sh (Alternate styling with jquery based loginscreen animation)
 
 **Project Contributors** Tim Goens, Summer Feilers, Ashley Mello
