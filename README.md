@@ -23,5 +23,6 @@
 ![](flashCodeLogin.gif)
 
 **Card Flipping Animation** 
+
 ![](flashCodeFlip.gif)
 
