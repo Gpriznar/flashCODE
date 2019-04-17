@@ -24,11 +24,11 @@ HTML, CSS, Bootstrap, JavaScript, JQuery, FireBase, Google Books API
 
 **Project Contributors:** Tim Goens, Summer Feilers, Ashley Mello
 
-**Login**
+**Login:**
 
 ![](flashCodeLogin.gif)
 
-**Card Flipping Animation** 
+**Card Flipping Animation:** 
 
 ![](flashCodeFlip.gif)
 
