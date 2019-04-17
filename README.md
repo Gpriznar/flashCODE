@@ -18,6 +18,10 @@
 
 **Project Contributors:** Tim Goens, Summer Feilers, Ashley Mello
 
-![](flashCodeHomePage.gif)
+**Login**
+
+![](flashCodeLogin.gif)
+
+**Card Flipping Animation** 
 ![](flashCodeCardFlip.gif)
 
