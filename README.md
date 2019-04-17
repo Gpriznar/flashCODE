@@ -1,4 +1,4 @@
-# flashCODE
+# flashCode
 
 
 **Purpose:** 
