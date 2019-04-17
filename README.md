@@ -18,5 +18,6 @@
 
 **Project Contributors:** Tim Goens, Summer Feilers, Ashley Mello
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=eFDfS3stJs8&feature=youtu.be)
+![](flashCodeHomePage.gif)
+![](flashCodeCardFlip.gif)
 
