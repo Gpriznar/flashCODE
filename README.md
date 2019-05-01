@@ -34,7 +34,7 @@ HTML, CSS, Bootstrap, JavaScript, jQuery, Firebase, Google Books API
 
 **Google Books API:**
 
-One of the more challenging aspects of this project was calling the Google Book API. Here's how we solved it!
+One of the more challenging aspects of this project was calling the Google Book API. Here's the code for how we solved it!
 
 ![](apijs1.png)
 ![](apijs2.png)
